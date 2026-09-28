@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Worklytix</title>
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">W</div>
+          <div>
+            <strong>Worklytix</strong>
+            <span>Workforce Analytics</span>
+          </div>
+        </div>
+        <nav id="nav"></nav>
+        <div class="responsible-note">
+          <strong>Responsible AI</strong>
+          <span>Predictions are probabilistic model estimates and should support review, not employment actions.</span>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Employee Attrition Prediction</p>
+            <h1 id="pageTitle">Dashboard</h1>
+          </div>
+          <div class="top-actions">
+            <button class="icon-btn" id="themeToggle" title="Toggle theme">◐</button>
+            <a class="primary-action" href="/prediction">New Prediction</a>
+          </div>
+        </header>
+        <section id="app" class="content" aria-live="polite"></section>
+      </main>
+    </div>
+
+    <div id="toast" class="toast" role="status"></div>
+    <script type="module" src="/js/app.js"></script>
+  </body>
+</html>

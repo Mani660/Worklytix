@@ -1,0 +1,12 @@
+{
+  "name": "worklytix",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Employee attrition prediction and workforce analytics platform using the provided Excel dataset.",
+  "scripts": {
+    "generate:data": "python tools/generate_app_data.py",
+    "start": "node tools/local-server.mjs",
+    "validate": "node tools/validate.mjs"
+  }
+}

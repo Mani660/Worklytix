@@ -1,0 +1,11 @@
+name = "Worklytix"
+tagline = "Employee attrition prediction and workforce analytics"
+description = "A B.Tech machine learning project using Logistic Regression and Random Forest on the uploaded employee attrition Excel dataset."
+category = "Education"
+tags = ["machine-learning", "hr-analytics", "attrition"]
+
+[auth]
+enabled = true
+providers = ["email"]
+hosted_login = true
+login_path = "/login"
